@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/registerToolbarId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/tool_border"
+            android:gravity="center_horizontal"
+            app:title="@string/Register_title"
+            app:titleMarginStart="50dp"
+            app:titleTextAppearance="@style/title_text_style">
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/headingId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create a new account"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:id="@+id/R_UsernameId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User name:"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                />
+            <EditText
+                android:id="@+id/R_UsernameEditId"
+                android:layout_width="match_parent"
+                android:hint="Enter your username"
+               android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/R_emailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email:"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+                android:textSize="25sp"
+
+                />
+            <EditText
+                android:id="@+id/R_EmailEditId"
+                android:layout_width="match_parent"
+                android:hint="Enter your Email"
+                android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/R_passId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+                android:textSize="25sp"
+
+                />
+            <EditText
+                android:id="@+id/R_passEditTextId"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:layout_height="45dp"
+                android:hint="Enter Your Password"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edit_text_round"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/R_BirthdayId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthday:"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:weightSum="3"
+                android:background="@drawable/button_round"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#fcf8f8"
+                    android:layout_marginRight="5dp"
+                    >
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Day"
+                        android:textStyle="normal"
+                        android:textColor="#9e9c9c"
+                        android:textSize="25sp"
+                        android:paddingLeft="10dp"
+                        />
+                    <Spinner
+                        android:id="@+id/DaySpinnerId"
+                        android:scrollbars="vertical"
+                        android:scrollbarSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                    </Spinner>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="#fcf8f8"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Month"
+                        android:textStyle="normal"
+                        android:textColor="#9e9c9c"
+                        android:textSize="25sp"
+                        android:paddingLeft="10dp"
+                        />
+                    <Spinner
+                        android:id="@+id/MonthSpinnerId"
+                        android:scrollbars="vertical"
+                        android:scrollbarSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                    </Spinner>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+
+                    android:background="#fcf8f8"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Year"
+                        android:textStyle="normal"
+                        android:textColor="#9e9c9c"
+                        android:textSize="25sp"
+                        android:paddingLeft="10dp"
+                        />
+                    <Spinner
+                        android:id="@+id/YearSpinnerId"
+
+                        android:scrollbarSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+
+                        >
+
+                    </Spinner>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <RadioButton
+                    android:id="@+id/MaleRadioButtonId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:text="Male"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="10dp"
+                    />
+                <RadioButton
+                    android:id="@+id/FemaleRadioButtonId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="@color/textColor"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="15dp"
+                    />
+
+
+
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/R_RegisterButtonId"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginStart="100dp"
+                android:textColor="@color/button_text_color"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/buttonColor"
+                android:background="@drawable/button_round"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

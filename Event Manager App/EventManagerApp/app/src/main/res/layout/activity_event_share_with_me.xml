@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".EventShareWithMe">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/shareEventToolbarId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/tool_border"
+        android:gravity="center_horizontal"
+        app:title="@string/eventShare_title"
+        app:titleMarginStart="25dp"
+        app:titleTextAppearance="@style/title_text_style">
+
+    </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>

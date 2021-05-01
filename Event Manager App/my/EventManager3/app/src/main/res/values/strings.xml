@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Event Manager</string>
+    <string name="title_activity_event_creat">Event_creat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="event_details">Event Details</string>
+    <string name="event_name">Event Name :</string>
+    <string name="event_description">Event Description :</string>
+    <string name="event_schedule">Event Schedule :</string>
+    <string name="event_photo">Event Photo :</string>
+    <string name="secrete_code">Secrete Code for Heads :</string>
+    <string name="secrete_code_volunteer">Secrete Code for Volunteers : </string>
+    <string name="admin_name">Admin Name :</string>
+    <string name="admin_designation">Admin Designation :</string>
+    <string name="admin_mobilenumber">Admin Mobile Number</string>
+    <string name="admin_photo">Admin Photo :</string>
+    <string name="admin_email_address">Admin Email Address :</string>
+    <string name="event_details_next_btn">Next</string>
+
+
+</resources>

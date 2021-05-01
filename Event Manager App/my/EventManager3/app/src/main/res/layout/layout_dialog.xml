@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        
+        android:text="ENTER CODE "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        
+        
+        
+        
+        
+        
+        />
+    
+    
+    <EditText
+        android:id="@+id/event_head_code_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="enter code"
+       android:layout_marginBottom="10dp"
+       android:textStyle="bold"
+        android:textSize="12dp"
+
+
+
+
+
+
+        />
+
+
+    <Button
+       android:id="@+id/header_code_done_btn_id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="DONE"
+
+
+
+
+
+        />
+
+</RelativeLayout>

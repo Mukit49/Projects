@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminsNewOrderActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/realative_layout2_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#411311"
+
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New orders "
+            android:textColor="#f7f1f1"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/realative_layout2_id"
+        android:id="@+id/order_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+
+
+        >
+
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

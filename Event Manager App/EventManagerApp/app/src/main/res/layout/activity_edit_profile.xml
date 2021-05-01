@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/myProfileToolbarId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/tool_border"
+                android:gravity="center_horizontal"
+                app:title="@string/profile_title"
+                app:titleMarginStart="25dp"
+                app:titleTextAppearance="@style/title_text_style">
+
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

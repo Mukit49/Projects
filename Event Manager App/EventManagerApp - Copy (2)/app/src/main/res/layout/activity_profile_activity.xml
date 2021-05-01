@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".profile_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/myProfileToolbarId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/tool_border"
+                android:gravity="center_horizontal"
+                app:title="@string/profile_title"
+                app:titleMarginStart="25dp"
+                app:titleTextAppearance="@style/title_text_style">
+
+            </android.support.v7.widget.Toolbar>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <ImageView
+                    android:id="@+id/profileImageId_myProfile"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/profile_pic_image"
+                    />
+                <TextView
+                    android:id="@+id/P_usernameId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:layout_marginTop="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColor"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+                <Button
+                    android:id="@+id/imageSaveButtonId"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/buttonColor"
+                    android:text="Save"
+                    android:textSize="30sp"
+                    android:textColor="@color/button_text_color"
+                    android:textStyle="bold"
+                    android:clickable="true" />
+                <Button
+                    android:id="@+id/editButtonId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/profile_edit_button"
+
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/P_nameId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+
+                />
+            <TextView
+                android:id="@+id/P_deptId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+
+                />
+            <TextView
+                android:id="@+id/P_varsityId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+
+                />
+            <TextView
+                android:id="@+id/P_occupationId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+                />
+            <TextView
+                android:id="@+id/P_contactId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Contact Info:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+
+                />
+            <TextView
+                android:id="@+id/P_mailId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+
+                />
+            <TextView
+                android:id="@+id/P_mobileId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+                />
+            <TextView
+                android:id="@+id/P_addressTitleId"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Address:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+                />
+            <TextView
+                android:id="@+id/P_addressId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

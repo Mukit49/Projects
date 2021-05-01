@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/editProfileToolbarId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/tool_border"
+                android:gravity="center_horizontal"
+                app:title="Edit Profile"
+                app:titleMarginStart="25dp"
+                app:titleTextAppearance="@style/title_text_style">
+
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/nameTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/editNameId"
+                android:layout_width="match_parent"
+                android:hint="Enter your name"
+                android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:textSize="25sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/UniversityNameTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="University/Organization:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/varsityEditId"
+                android:layout_width="match_parent"
+                android:hint="Enter your University or Organization name"
+                android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:textSize="25sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/deptNameId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Department:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/deptNameEditId"
+                android:layout_width="match_parent"
+                android:hint="Department name"
+                android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:textSize="25sp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/mobileNumberTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/mobileNumberEditId"
+                android:layout_width="match_parent"
+                android:hint="Enter your mobile number"
+                android:paddingLeft="15dp"
+                android:textSize="25sp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/occupationTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Occupation:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/occupationEditId"
+                android:layout_width="match_parent"
+                android:hint="Enter your Occupation"
+                android:paddingLeft="15dp"
+                android:textSize="25sp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_text_round"
+                />
+            <TextView
+                android:id="@+id/addressTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textSize="25sp"
+                android:textColor="@color/textColor"
+                android:textStyle="normal"
+
+                />
+            <EditText
+                android:id="@+id/addressEditTextId"
+                android:layout_width="match_parent"
+                android:hint="City , country"
+                android:paddingLeft="15dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_round"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/saveButtonId"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round"
+                    android:textAllCaps="false"
+                    android:backgroundTint="@color/buttonColor"
+                    android:text="Save"
+                    android:textSize="30sp"
+                    android:textColor="@color/button_text_color"
+                    android:textStyle="bold"
+                    android:clickable="true"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

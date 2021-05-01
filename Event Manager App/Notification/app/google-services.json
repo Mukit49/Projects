@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "380164894639",
+    "firebase_url": "https://notification-29d50.firebaseio.com",
+    "project_id": "notification-29d50",
+    "storage_bucket": "notification-29d50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380164894639:android:a0ef83c425d8048f",
+        "android_client_info": {
+          "package_name": "com.example.asus.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380164894639-788cnh8q8t388r2pp69iaq07c0bhpbdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.notification",
+            "certificate_hash": "097d48f38bc8142f478387e3d63e705be4aea478"
+          }
+        },
+        {
+          "client_id": "380164894639-2s7pb9q31mt72ujkr6ccu1livh8855kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3SaTJLPJjEK8tu_cfYD-SyVsrlDrl8NM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380164894639-2s7pb9q31mt72ujkr6ccu1livh8855kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context=".Join_as">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        
+        android:layout_marginTop="150dp"
+        
+        android:textStyle="bold"
+        android:textSize="35dp"
+        
+        
+        android:text="JOIN AS"
+        android:layout_marginBottom="35dp"
+        
+        
+        
+        
+        
+        
+        />
+    
+    
+    <Button
+        android:id="@+id/join_as_sector_head_btn_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="AS SECTOR HEAD"
+       android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+
+
+
+
+        />
+
+    <Button
+        android:id="@+id/join_as_volunteer_btn_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="AS VOLUNTEER"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+
+
+
+
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "921115772614",
+    "firebase_url": "https://event-manager3.firebaseio.com",
+    "project_id": "event-manager3",
+    "storage_bucket": "event-manager3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921115772614:android:cf5c23350542f293",
+        "android_client_info": {
+          "package_name": "com.example.asus.eventmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921115772614-bg15cd10h6p0und697ubgt9r3crpa354.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.eventmanager",
+            "certificate_hash": "097d48f38bc8142f478387e3d63e705be4aea478"
+          }
+        },
+        {
+          "client_id": "921115772614-8unri2g9pimu81k3dtbs83cger5espvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzKrdnsrZtKg0RCHMfE9Jf9fa5Q2oz3NU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921115772614-8unri2g9pimu81k3dtbs83cger5espvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

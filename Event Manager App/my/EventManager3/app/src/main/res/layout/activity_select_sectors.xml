@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".Select_sectors">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        
+        
+        >
+        
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="CREATE SECTORS"
+            android:textColor="#22ffda"
+            android:layout_marginBottom="25dp"
+
+
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/sector_1_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edittext"
+
+
+            android:hint="sector 1"
+            android:layout_marginBottom="6dp"
+            
+
+            />
+
+        <EditText
+            android:id="@+id/sector_2_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+
+            android:hint="sector 2"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bg_edittext"
+
+
+            />
+
+        <EditText
+            android:id="@+id/sector_3_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+
+            android:hint="sector 3"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bg_edittext"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/sector_4_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 4"
+
+            android:layout_marginBottom="6dp"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/sector_5_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+
+            android:hint="sector 5"
+            android:background="@drawable/bg_edittext"
+
+            android:layout_marginBottom="6dp"
+
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/sector_6_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 6"
+            android:layout_marginBottom="6dp"
+
+
+            />
+        
+        
+
+
+        <EditText
+            android:id="@+id/sector_7_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+
+            android:hint="sector 7"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/bg_edittext"
+
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/sector_8_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 8"
+
+            android:layout_marginBottom="6dp"
+            
+
+
+            />
+
+        <EditText
+            android:id="@+id/sector_9_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 9"
+
+            android:layout_marginBottom="6dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/sector_10_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 10"
+
+            android:layout_marginBottom="6dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/sector_11_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 11"
+
+            android:layout_marginBottom="6dp"
+
+
+            />
+
+
+        <EditText
+            android:id="@+id/sector_12_id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:background="@drawable/bg_edittext"
+
+            android:hint="sector 12"
+
+            android:layout_marginBottom="6dp"
+            
+            
+
+
+            />
+        
+        
+        <Button
+            android:id="@+id/add_more_sectors_btn_id"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="ADD MORE SECTORS"
+
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+
+
+
+
+
+            />
+
+
+        <Button
+
+            android:id="@+id/select_sectors_done_btn_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+
+            android:background="#228dff"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+
+
+
+
+
+            />
+        
+
+        
+        
+        
+    </LinearLayout>
+    
+    
+
+</ScrollView>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profileId"
+            android:title="@string/profile"
+            android:icon="@drawable/my_profile"/>
+        <item
+            android:id="@+id/myEventId"
+            android:title="@string/my_event"
+            android:icon="@drawable/my_event"/>
+        <item
+            android:id="@+id/eventShareId"
+            android:title="@string/share_event"
+            android:icon="@drawable/share"/>
+
+        <item
+            android:id="@+id/createEventId"
+            android:title="@string/c_event"
+            android:icon="@drawable/create_event"/>
+        <item
+            android:id="@+id/createGroupId"
+            android:title="@string/c_group"
+            android:icon="@drawable/create_group"/>
+
+        <item
+            android:id="@+id/groupsId"
+            android:title="@string/group"
+            android:icon="@drawable/group"/>
+        <item
+            android:id="@+id/dashboardId"
+            android:title="@string/dash_board"
+            android:icon="@drawable/dash_board"/>
+
+        <item
+            android:id="@+id/settingId"
+            android:title="@string/settings"
+            android:icon="@drawable/settings"/>
+        <item
+            android:id="@+id/helpId"
+            android:title="@string/help"
+            android:icon="@drawable/help_info"/>
+
+        <item
+            android:id="@+id/logOutId"
+            android:title="@string/log_out"
+            android:icon="@drawable/log_out"/>
+
+    </group>
+
+</menu>
